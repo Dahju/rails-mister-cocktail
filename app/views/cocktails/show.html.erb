@@ -5,6 +5,10 @@
 
 <% @cocktail.doses.each do |dose| %>
 
-<p> <%= dose.description %> </p>
+<p> <%= dose.description %> <%= dose.ingredient.name %> </p>
+
 
 <% end %>
+
+
+<%= link_to "Back to cocktails", cocktails_path, class: "btn" %>
