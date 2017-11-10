@@ -1,6 +1,11 @@
-<div class="text-center">
-  <%= simple_form_for @cocktail do |f| %>
-    <%= f.input :name %>
-    <%= f.submit %>
-  <% end %>
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+      <%= simple_form_for @cocktail do |f| %>
+        <%= f.input :name %>
+        <%= f.input :photo, as: :attachinary %>
+        <%= f.submit %>
+      <% end %>
+    </div>
+  </div>
 </div>

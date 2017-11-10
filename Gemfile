@@ -23,6 +23,11 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 gem 'figaro'
 
+
+gem 'cloudinary', '1.1.7'
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'jquery-fileupload-rails'
+
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
